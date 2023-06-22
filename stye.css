@@ -1,0 +1,35 @@
+h3 {
+  color: rgb(237, 159, 43);
+  block-size: 0%;
+  font-size: xx-large;
+  text-align: center;
+}
+.skill-header {
+  text-align: auto;
+}
+
+.yoo {
+  color: rgb(233, 172, 17);
+  font-style: oblique;
+  background-color: aqua;
+  text-align: center;
+}
+
+.mid {
+  text-align: center;
+}
+.border {
+  border: solid lightcoral;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+.Experience {
+  color: rgb(234, 142, 5);
+  block-size: 0%;
+  font-size: xx-large;
+  text-align: center;
+}
