@@ -1,23 +1,28 @@
 h3 {
-  color: rgb(237, 159, 43);
+  color: rgb(255, 255, 255);
   block-size: 0%;
   font-size: xx-large;
   text-align: center;
+  line-height: 5px;
 }
 .skill-header {
   text-align: auto;
 }
 
 .yoo {
-  color: rgb(233, 172, 17);
+  color: rgb(255, 255, 255);
   font-style: oblique;
-  background-color: aqua;
   text-align: center;
+}
+body {
+  background-image: url(--clr);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .mid {
   text-align: center;
-  background-color: aqua;
 }
 .border {
   border: solid lightcoral;
@@ -29,7 +34,7 @@ h3 {
 }
 
 .Experience {
-  color: rgb(234, 142, 5);
+  color: rgb(255, 255, 255);
   block-size: 0%;
   font-size: xx-large;
   text-align: center;
@@ -40,7 +45,7 @@ h3 {
   justify-content: center;
   align-items: center;
   min-height: 10vh;
-  background-color: #27282c(248, 248, 248);
+  background-color: #d758f4(248, 248, 248);
   flex-direction: column;
   gap: 50px;
 }
@@ -61,7 +66,7 @@ a:hover {
   background: var(--clr);
   color: var(--clr);
   letter-spacing: 0.25em;
-  box-shadow: 0 0 35px var(--clr);
+  box-shadow: 1 1 35px var(--clr);
 }
 a::before {
   content: "";
@@ -126,4 +131,16 @@ a:hover i::after {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("/img/img/Beautiful\ Landscape\ \(1920x1080\).png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
 }
