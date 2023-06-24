@@ -66,13 +66,14 @@ a:hover {
   background: var(--clr);
   color: var(--clr);
   letter-spacing: 0.25em;
-  box-shadow: 1 1 35px var(--clr);
+  box-shadow: 0 0 5px #000, 0 0 5px, 0 0 50px #000, 0 0 100px #000,
+    0 0 200px#000;
 }
 a::before {
   content: "";
   position: absolute;
   inset: 2px;
-  background-color: #1bddd4;
+  background-color: #d3679e;
 }
 a span {
   position: relative;
@@ -143,4 +144,34 @@ body {
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
+}
+
+.Photo {
+  display: flex;
+  height: 20rem;
+  gap: 1rem;
+}
+.Photo > div {
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto 100%;
+  transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+  height: 100vh;
+  margin-right: auto;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+}
+
+.Photo > div:hover {
+  flex: 6;
+}
+
+.button {
+  box-shadow: 0 0 5px cyan, 0 0 25px;
+}
+.button:hover {
+  box-shadow: 0 0 5px cyan, 0 0 5px, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
 }
