@@ -49,7 +49,7 @@ body {
   flex-direction: column;
   gap: 50px;
 }
-a {
+.a {
   position: relative;
   background-color: #27282c;
   color: #fff;
@@ -62,29 +62,29 @@ a {
   padding: 10px 30px;
   transition: 0.5s;
 }
-a:hover {
+.a:hover {
   background: var(--clr);
   color: var(--clr);
   letter-spacing: 0.25em;
   box-shadow: 0 0 5px #000, 0 0 5px, 0 0 50px #000, 0 0 100px #000,
     0 0 200px#000;
 }
-a::before {
+.a::before {
   content: "";
   position: absolute;
   inset: 2px;
   background-color: #d3679e;
 }
-a span {
+.a span {
   position: relative;
   z-index: 1;
 }
-a i {
+.a i {
   position: absolute;
   inset: 0;
   display: block;
 }
-a i::before {
+.a i::before {
   content: "";
   position: absolute;
   top: 0;
@@ -95,11 +95,11 @@ a i::before {
   transform: translateX(-50%) skewX(325deg);
   transform: 0.5s;
 }
-a:hover i::before {
+.a:hover i::before {
   width: 20px;
   left: 20%;
 }
-a i::after {
+.a i::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -110,7 +110,7 @@ a i::after {
   transform: translate(-50%) skewX(325deg);
   transform: 1s;
 }
-a:hover i::after {
+.a:hover i::after {
   width: 20px;
   left: 80%;
 }
@@ -174,4 +174,9 @@ body {
 .button:hover {
   box-shadow: 0 0 5px cyan, 0 0 5px, 0 0 50px cyan, 0 0 100px cyan,
     0 0 200px cyan;
+}
+
+p {
+  color: aliceblue;
+  font-style: inherit;
 }
