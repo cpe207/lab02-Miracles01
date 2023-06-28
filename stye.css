@@ -168,8 +168,8 @@ body {
   box-shadow: 0 0 5px cyan, 0 0 25px;
 }
 .button:hover {
-  box-shadow: 0 0 5px cyan, 0 0 5px, 0 0 50px rgb(49, 94, 94), 0 0 100px cyan,
-    0 0 200px cyan;
+  box-shadow: 0 0 5px rgb(255, 247, 29), 0 0 5px, 0 0 50px rgb(231, 255, 75),
+    0 0 100px rgb(220, 255, 42), 0 0 200px rgb(245, 248, 48);
 }
 
 p {
@@ -220,4 +220,33 @@ p {
   width: 500px;
   height: 500px;
   margin: auto;
+}
+
+/* การ์ดเรืองแสง */
+
+.lightcard1 {
+  box-shadow: 0 0 5px rgb(209, 241, 31), 0 0 25px;
+}
+.lightcard1:hover {
+  box-shadow: 0 0 5px rgb(255, 247, 29), 0 0 5px, 0 0 50px rgb(231, 255, 75),
+    0 0 100px rgb(220, 255, 42), 0 0 200px rgb(245, 248, 48);
+  transition: 0.8s;
+}
+
+.lightcard2 {
+  box-shadow: 0 0 5px rgb(44, 246, 44), 0 0 25px;
+}
+.lightcard2:hover {
+  box-shadow: 0 0 5px rgb(44, 246, 44), 0 0 5px, 0 0 50px rgb(44, 246, 44),
+    0 0 100px rgb(44, 246, 44), 0 0 200px rgb(44, 246, 44);
+  transition: 0.8s;
+}
+
+.lightcard3 {
+  box-shadow: 0 0 5px rgb(44, 223, 246), 0 0 25px;
+}
+.lightcard3:hover {
+  box-shadow: 0 0 5px rgb(44, 223, 246), 0 0 5px, 0 0 50px rgb(44, 223, 246),
+    0 0 100px rgb(44, 223, 246), 0 0 200px rgb(44, 223, 246);
+  transition: 0.8s;
 }
